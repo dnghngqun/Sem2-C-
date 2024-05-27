@@ -1,0 +1,15 @@
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/bin/Debug/net8.0/ConsoleApp
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll
