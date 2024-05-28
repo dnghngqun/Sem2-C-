@@ -74,15 +74,16 @@ namespace ConsoleApp
 		        case 2:             // label case 2
 			        Console.WriteLine("Case 2");
 			        goto case 1;    // dịch chuyển tới label case 1
-			        break;          // Đoạn code này thừa vì sẽ không bao giờ thực thi
+			        //break;          // Đoạn code này thừa vì sẽ không bao giờ thực thi
 		        case 3:             // label case 3
 			        Console.WriteLine("Case 3");
 			        goto nhan1;
-			        break;
+			       // break;
 	        }
 
+
 	        //khai báo nhãn(label)
-{	        nhan1:
+        	nhan1:
 	        {
 		        Console.WriteLine("Đây là nhãn 3");
             }
