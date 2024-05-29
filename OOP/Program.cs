@@ -6,7 +6,7 @@ namespace Encapsulation //tính đóng gói
     {
         public int Id;
         private string name;
-        
+
         //getter và setter cho name
         public string Name
         { 
@@ -217,4 +217,20 @@ namespace Abstraction
             Console.WriteLine("Vẽ hình tròn.");
         }
     }   
+}
+
+namespace Interface
+{
+    public interface IVe
+    {
+        void Ve();
+    }
+
+    public class HinhVuong : IVe
+    {
+        public void Ve()
+        {
+            Console.WriteLine("Vẽ hình vuông.");
+        }
+    }
 }
