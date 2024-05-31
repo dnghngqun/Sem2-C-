@@ -1,66 +1,66 @@
 ﻿using System;
 
-namespace Encapsulation //tính đóng gói
-{
-    class Student
-    {
-        public int Id;
-        private string name;
+// namespace Encapsulation //tính đóng gói
+// {
+//     class Student
+//     {
+//         public int Id;
+//         private string _Name;
 
-        //getter và setter cho name
-        public string Name
-        { 
-        get{ return name; }
-        set{name = value; }
-        }
+//         //getter và setter cho name
+//         public string Name
+//         { 
+//         get{ return _Name; }
+//         set{_Name = value; }
+//         }
        
-    }
+//     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Student student = new Student();//khởi tạo 1 đối tượng student
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Student student = new Student();//khởi tạo 1 đối tượng student
 
-            student.Id = 1;// gán giá trị cho biến id, vì id để public nên có thể gắn trực tiếp
-            Console.WriteLine(student.Id);//output: 1
+//             student.Id = 1;// gán giá trị cho biến id, vì id để public nên có thể gắn trực tiếp
+//             Console.WriteLine(student.Id);//output: 1
 
-            student.Name = "Nguyen Van A";//gán giá trị cho biến name, vì name được private nên gắn qua trung gian là Name
-            Console.WriteLine(student.Name);//output: Nguyen Van A
-        }
-    }
-}
+//             student.Name = "Nguyen Van A";//gán giá trị cho biến name, vì name được private nên gắn qua trung gian là Name
+//             Console.WriteLine(student.Name);//output: Nguyen Van A
+//         }
+//     }
+// }
 
 namespace Polymorphism //Tính đa hình
 {
 
     //function overloading
-    class Function_overloading
-    {
-        void print(int i)
-        {
-            Console.WriteLine("In so nguyen: {0}", i);
-        }
-        void print(double f)
-        {
-            Console.WriteLine("In so thuc: {0}", f);
-        }
-        void print(string s)
-        {
-            Console.WriteLine("In chuoi: {0}", s);
-        }
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Tinh da hinh trong C#");
-            Console.WriteLine("--------------------------");
-            //tao doi tuong
-            Function_overloading p = new Function_overloading();
-            // goi ham print()
-            p.print(5); //output: In so nguyen: 5
-            p.print(100.69);//output: In so thuc: 100.69
-            Console.ReadKey();//đợi ấn một phím bất kì không thì ctrinh chạy xong sẽ tự tắt
-        }
-    }
+    // class Function_overloading
+    // {
+    //     void print(int i)
+    //     {
+    //         Console.WriteLine("In so nguyen: {0}", i);
+    //     }
+    //     void print(double f)
+    //     {
+    //         Console.WriteLine("In so thuc: {0}", f);
+    //     }
+    //     void print(string s)
+    //     {
+    //         Console.WriteLine("In chuoi: {0}", s);
+    //     }
+    //     static void Main(string[] args)
+    //     {
+    //         Console.WriteLine("Tinh da hinh trong C#");
+    //         Console.WriteLine("--------------------------");
+    //         //tao doi tuong
+    //         Function_overloading p = new Function_overloading();
+    //         // goi ham print()
+    //         p.print(5); //output: In so nguyen: 5
+    //         p.print(100.69);//output: In so thuc: 100.69
+    //         Console.ReadKey();//đợi ấn một phím bất kì không thì ctrinh chạy xong sẽ tự tắt
+    //     }
+    // }
 
     //operator overloading
     class Box
@@ -125,7 +125,7 @@ namespace Polymorphism //Tính đa hình
             the_tich = Box2.tinhTheTich();
             Console.WriteLine("The tich cua Box2 la: {0}", the_tich);//output: The tich cua Box2 la: 210
             // con hai doi tuong
-            Box3 = Box1 + Box2;
+            Box3 = Box1 + Box2 + Box1 + Box1+ Box1+ Box1+ Box1+ Box1+ Box1+ Box1+ Box1+ Box1+ Box1;
             // tinh va hien thi the tich Box3
             the_tich = Box3.tinhTheTich();
             Console.WriteLine("The tich cua Box3 la: {0}", the_tich);//output: The tich cua Box3 la: 972
@@ -170,68 +170,68 @@ namespace Polymorphism //Tính đa hình
 }
 
 //tính kế thừa
-namespace Inheritance{
-    class Nguoi 
-    { 
-        // Khai báo thuộc tính 
-        public string maso; 
-        public string hoten; 
-        public string gioitinh; 
+// namespace Inheritance{
+//     class Nguoi 
+//     { 
+//         // Khai báo thuộc tính 
+//         public string maso; 
+//         public string hoten; 
+//         public string gioitinh; 
 
-        // Constructor
-        public Nguoi(string maso, string hoten, string gioitinh) 
-        { 
-            this.maso = maso; 
-            this.hoten = hoten; 
-            this.gioitinh = gioitinh; 
-        }  
-    }
+//         // Constructor
+//         public Nguoi(string maso, string hoten, string gioitinh) 
+//         { 
+//             this.maso = maso; 
+//             this.hoten = hoten; 
+//             this.gioitinh = gioitinh; 
+//         }  
+//     }
 
-    class NhanVien : Nguoi
-    {
-        private string bangcap;
+//     class NhanVien : Nguoi
+//     {
+//         private string bangcap;
 
-        public NhanVien(string maso, string hoten, string gioitinh, string bangcap) 
-        : base(maso, hoten, gioitinh) // giống với super trong java 
-        {
-            this.bangcap = bangcap;
-        }
-    }
-}
+//         public NhanVien(string maso, string hoten, string gioitinh, string bangcap) 
+//         : base(maso, hoten, gioitinh) // giống với super trong java 
+//         {
+//             this.bangcap = bangcap;
+//         }
+//     }
+// }
 
-namespace Abstraction
-{
-    abstract class Hinh
-    {
-        public abstract void Ve(); // Phương thức trừu tượng
-        public void MoTa()
-        {
-            Console.WriteLine("Đây là một hình.");
-        }
-    }
+// namespace Abstraction
+// {
+//     abstract class Hinh
+//     {
+//         public abstract void Ve(); // Phương thức trừu tượng
+//         public void MoTa()
+//         {
+//             Console.WriteLine("Đây là một hình.");
+//         }
+//     }
 
-    class HinhTron : Hinh
-    {
-        public override void Ve()
-        {
-            Console.WriteLine("Vẽ hình tròn.");
-        }
-    }   
-}
+//     class HinhTron : Hinh
+//     {
+//         public override void Ve()
+//         {
+//             Console.WriteLine("Vẽ hình tròn.");
+//         }
+//     }   
+// }
 
-namespace Interface
-{
-    public interface IVe
-    {
-        void Ve();
-    }
+// namespace Interface
+// {
+//     public interface IVe
+//     {
+//         void Ve();
+//     }
 
-    public class HinhVuong : IVe
-    {
-        public void Ve()
-        {
-            Console.WriteLine("Vẽ hình vuông.");
-        }
-    }
-}
+//     public class HinhVuong : IVe
+//     {
+//         public void Ve()
+//         {
+//             Console.WriteLine("Vẽ hình vuông.");
+//         }
+//     }
+// }
 

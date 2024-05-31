@@ -1,0 +1,15 @@
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.AssemblyInfoInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.AssemblyInfo.cs
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.csproj.CoreCompileInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.sourcelink.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/bin/Debug/net8.0/OOP
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/bin/Debug/net8.0/OOP.deps.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/bin/Debug/net8.0/OOP.runtimeconfig.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/bin/Debug/net8.0/OOP.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/bin/Debug/net8.0/OOP.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/refint/OOP.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/OOP.genruntimeconfig.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/OOP/obj/Debug/net8.0/ref/OOP.dll
