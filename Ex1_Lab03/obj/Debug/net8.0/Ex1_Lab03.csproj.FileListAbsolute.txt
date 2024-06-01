@@ -1,0 +1,15 @@
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/bin/Debug/net8.0/Ex1_Lab03
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/bin/Debug/net8.0/Ex1_Lab03.deps.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/bin/Debug/net8.0/Ex1_Lab03.runtimeconfig.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/bin/Debug/net8.0/Ex1_Lab03.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/bin/Debug/net8.0/Ex1_Lab03.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.AssemblyInfoInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.AssemblyInfo.cs
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.csproj.CoreCompileInputs.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.sourcelink.json
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/refint/Ex1_Lab03.dll
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.pdb
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/Ex1_Lab03.genruntimeconfig.cache
+/Users/hongquan/code/vscode/Aptech/SEM 2/T2307M/C#/Ex1_Lab03/obj/Debug/net8.0/ref/Ex1_Lab03.dll
