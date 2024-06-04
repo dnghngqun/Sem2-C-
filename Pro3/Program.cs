@@ -1,5 +1,8 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
+using Pro3.controller;
+using Pro3.model;
+using Pro3.service;
 
 namespace Pro3
 {
@@ -8,6 +11,8 @@ namespace Pro3
         static string connectionString = "Server=localhost;Database=prodb;User Id=root;Password=;";
         public static void Main(string[] args)
         {
+            IProductService productService= new ProductService(connectionString);
+            ProductController productController= new ProductController(productService);
             while(true)
             {
                 Console.WriteLine("Product Management");
@@ -22,7 +27,19 @@ namespace Pro3
                 switch(choice)
                 {
                     case "1":
-                        AddProduct();
+                        Console.Write("Enter product name: ");
+                        string Name = Console.ReadLine();
+                        Console.Write("Enter product price: ");
+                        decimal Price = Convert.ToDecimal(Console.ReadLine());
+                        Console.Write("Enter product description: ");
+                        string Description = Console.ReadLine();
+                        Product product = new Product
+                        {
+                            Name = Name,
+                            Price = Price,
+                            Description = Description
+                        };
+                        productController.AddProduct(product);
                         break;
                     case "2":
                         DisplayAllProduct();
@@ -43,30 +60,30 @@ namespace Pro3
         }
 
 
-        static void AddProduct()
-        {
-            Product product = new Product();
-            Console.Write("Enter product name: ");
-            product.Name = Console.ReadLine();
-            Console.Write("Enter product price: ");
-            product.Price = Convert.ToDecimal(Console.ReadLine());
-            Console.Write("Enter product description: ");
-            product.Description = Console.ReadLine();
+        // static void AddProduct()
+        // {
+        //     Product product = new Product();
+        //     Console.Write("Enter product name: ");
+        //     product.Name = Console.ReadLine();
+        //     Console.Write("Enter product price: ");
+        //     product.Price = Convert.ToDecimal(Console.ReadLine());
+        //     Console.Write("Enter product description: ");
+        //     product.Description = Console.ReadLine();
 
-            using(MySqlConnection conn = new MySqlConnection(connectionString)){
-                conn.Open();
-                String Query = "INSERT INTO Products (name, price, Description) VALUES (@Name, @Price, @Description)";
-                using (MySqlCommand cmd = new MySqlCommand(Query, conn)){
-                    cmd.Parameters.AddWithValue("@Name", product.Name);
-                    cmd.Parameters.AddWithValue("@Price", product.Price);
-                    cmd.Parameters.AddWithValue("@Description", product.Description);
-                    cmd.ExecuteNonQuery();
-                    Console.WriteLine("Product added successfully");
+        //     using(MySqlConnection conn = new MySqlConnection(connectionString)){
+        //         conn.Open();
+        //         String Query = "INSERT INTO Products (name, price, Description) VALUES (@Name, @Price, @Description)";
+        //         using (MySqlCommand cmd = new MySqlCommand(Query, conn)){
+        //             cmd.Parameters.AddWithValue("@Name", product.Name);
+        //             cmd.Parameters.AddWithValue("@Price", product.Price);
+        //             cmd.Parameters.AddWithValue("@Description", product.Description);
+        //             cmd.ExecuteNonQuery();
+        //             Console.WriteLine("Product added successfully");
 
-                }
+        //         }
                  
-            }
-        }
+        //     }
+        // }
 
         static void UpdateProduct()
         {
@@ -135,11 +152,11 @@ namespace Pro3
         }
     }
 
-    class Product
-    {
-        public int Id{ get; set; }
-        public string Name{ get; set; }
-        public decimal Price{ get; set; }
-        public string Description{ get; set; }
-    }
+    // class Product
+    // {
+    //     public int Id{ get; set; }
+    //     public string Name{ get; set; }
+    //     public decimal Price{ get; set; }
+    //     public string Description{ get; set; }
+    // }
 }
