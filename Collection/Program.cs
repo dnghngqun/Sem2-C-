@@ -1,5 +1,6 @@
 ﻿// C# collection
 using System.Net.Security;
+using Collection;
 
 class Program
 {
@@ -65,5 +66,28 @@ class Program
         {
             Console.WriteLine(city);
         }
-    }
+        //tao repository cho student
+        EntityRepository<Student> studentRepository = new EntityRepository<Student>();
+        // tao repository cho SchoolClass
+        EntityRepository<SchoolClass> schoolRepository = new EntityRepository<SchoolClass>();
+
+        // tao repository cho Teacher
+        EntityRepository<Teacher> teacherRepository = new EntityRepository<Teacher>();
+
+        studentRepository.Add(new Student { Id = 1, Name = "Gia Minh" });
+        foreach(var Student in studentRepository.GetAll())
+        {
+            Console.WriteLine(Student.ToString());
+        }
+        schoolRepository.Add(new SchoolClass { Id = 123, Name = "10A1" });
+        foreach(var sClass in schoolRepository.GetAll())
+        {
+            Console.WriteLine(sClass.ToString());
+        }
+        teacherRepository.Add(new Teacher { Id = 1, Name = "Nguyen Tuan" });
+        foreach(var Teacher in teacherRepository.GetAll())
+        {
+            Console.WriteLine(Teacher.ToString());
+        }
+    }    
 }
