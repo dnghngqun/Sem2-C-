@@ -79,11 +79,13 @@ class Program
         {
             Console.WriteLine(Student.ToString());
         }
+        
         schoolRepository.Add(new SchoolClass { Id = 123, Name = "10A1" });
         foreach(var sClass in schoolRepository.GetAll())
         {
             Console.WriteLine(sClass.ToString());
         }
+
         teacherRepository.Add(new Teacher { Id = 1, Name = "Nguyen Tuan" });
         foreach(var Teacher in teacherRepository.GetAll())
         {
